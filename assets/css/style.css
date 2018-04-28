@@ -1,0 +1,96 @@
+
+h1, h2 {
+
+    color: white;
+}
+
+.properties {
+	height: 100%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#top {
+	height: 80px;
+	margin: 20px 20px 0px 20px;
+}
+#middle {
+	height: 200px;
+	margin: 10px 0px;
+}
+#middleCol {
+	height: 40px;
+	margin-top: 80px;
+}
+#names {
+	height: 50px;
+}
+#attack {
+	text-align: center;
+	height: 100%;
+}
+.attack {
+	/*visibility: hidden;*/
+}
+#newGame {
+	text-align: center;
+	/*height: 100%;*/
+}
+#bottom {
+	height: 150px;
+	margin: 100px 30px 50px 30px;
+}
+
+#playerCharSelection .col-md-3 {
+	height: 200px;
+	padding: 0px;
+}
+.playerCharPick{
+	width: 100px;
+	height: 100px;
+	border: 1px solid white;
+}
+
+#enemyCharSelection .col-md-3 {
+	height: 200px;
+	padding: 0px;
+}
+.enemyCharPick{
+	width: 100px;
+	height: 100px;
+    border: 5px solid red;
+    background-color:white;
+    /* opacity: 0.5;filter: alpha(opacity=50); */
+    background-blend-mode: difference;
+}
+.image {
+	max-width: 100%;
+	max-height: 100%;
+}
+button {
+	height: 100%;
+	font-family: "Avenir";
+}
+
+.row {
+	/*border: 1px solid white;*/
+}
+
+.health {
+	position:absolute;
+	font-family: "Avenir";
+	bottom: -70px;
+    left: 50px;
+    color: white;
+    line-height:30px;
+}
+
+.logo {
+    width: 20%;
+    height: 15%;
+    left: 300px;
+}
+
+.buttonHeight {
+    height: 50px;
+}

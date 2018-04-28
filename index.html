@@ -1,0 +1,97 @@
+<!DOCTYPE>
+
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="Gentlemen, lightsabers out!">		
+            <meta name="viewport" content="width=device-width, initial-scale=1">		
+            <title>Star Wars Game</title>
+       
+            <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+
+    </head>
+
+    <body class="background" background="assets/images/starwarsbackground2.png">
+        <img src="assets/images/Star_Wars_logo.png" class="logo">
+        <!-- <h1>Star Wars RPG!</h1> -->
+            <div class = "row" id = "top">
+                    <div class = "col-md-4 properties" id = "result">
+                    </div>
+                </div>
+        
+                <div class = "row" id = "names">
+                    <!-- padding to place the fighters name in the middle -->
+                    <div class = "col-md-3">
+                    </div>
+                    <div class = "col-md-2 properties" id="playerName"></div>
+                    <!-- padding to place the fighters name in the middle -->
+                    <div class = "col-md-2">
+                    </div>
+                    <div class = "col-md-2 properties" id="enemyName"></div>
+                </div>
+        
+                <div class = "row" id = "middle">
+                    <div class = "col-md-3">
+                    </div>
+                    <div hidden class = "col-md-2 properties" id="battleArea">
+                        <div class = "health" id = "playerHealth"></div>
+                    </div>
+                    <div class = "col-md-2">
+                        <div class = "row" id = "middleCol">
+                            <div class = "col-md-3">
+                            </div>
+                            <div hidden class = "col-md-6" id = "attack">
+                                <button class = "btn btn-danger attack">Attack</button>
+                            </div>
+                            <div class = "col-md-3">
+                            </div>
+                        </div>
+                    </div>
+                    <div hidden class = "col-md-2 properties" id="enemyBattle">
+                        <div class = "health" id = "enemyHealth"></div>
+                    </div>
+                    <div class = "col-md-3">
+                    </div>
+                </div>
+        
+                <div class = "row" id = "bottom">
+                    <div class = "col-md-5 properties">
+                        <div class = "row" id = "playerCharSelection">
+                            <div class = "col-md-3 properties">
+                                <img src="assets/images/rey.png" alt="Rey Skywalker" class="playerCharPick" data-obj="rey">
+                            </div>
+                            <div class = "col-md-3 properties">
+                                <img src="assets/images/yoda.png" alt="Yoda" class="playerCharPick" data-obj="yoda">
+                            </div>
+                            <div class = "col-md-3 properties">
+                                <img src="assets/images/luke_skywalker.png" alt="Luke Skywalker" class="playerCharPick" data-obj="lukeskywalker">
+                            </div>
+                            <div class = "col-md-3 properties">
+                                <img src="assets/images/kylo_ren.png" alt="Kylo Ren" class="playerCharPick" data-obj="kyloren">
+                            </div>
+                        </div>
+        
+                    </div>
+                    <div class = "col-md-2" id="newGame">
+                        <button class = "btn btn-success buttonHeight newGame">New Game</button>
+                    </div>
+                    <div class = "col-md-5 properties">
+                        <div class = "row" id = "enemyCharSelection">
+                            <div class = "col-md-3 properties">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script src="assets/javascript/game.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>       
+    </body>
+
+</html>
