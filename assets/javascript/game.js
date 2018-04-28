@@ -28,7 +28,7 @@ $(document).ready(function() {
             healthPoints: 100,
             attackPower: 10,
             counterAttack: 10,
-            image: "assets/images/yoda.png",
+            image: "assets/images/Yoda.png",
 
     };
 
